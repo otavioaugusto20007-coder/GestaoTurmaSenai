@@ -1,3 +1,20 @@
 @charset "UTF-8";
+<<<<<<< HEAD
 @import "reset.css";
 @import "cores.css";
+=======
+
+@import "cores.css";
+@import "reset.css";
+
+@font-face{
+    font-family: Super_Mario;
+    src: url("fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+body{
+    font-family: var(--cor0);
+    font-family : Super_Mario;
+    
+}
+>>>>>>> 67c578937c6cacb206cb61b177080bd32624ef94
