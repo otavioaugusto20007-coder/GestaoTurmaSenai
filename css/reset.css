@@ -19,3 +19,19 @@ img, picture, video, canvas, svg {
 input, button, textarea, select {
   font: inherit;
 }
+/*
+  1. Use um box-sizing mais intuitivo
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remova as margens padrão e preenchimentos para melhor consistência
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*

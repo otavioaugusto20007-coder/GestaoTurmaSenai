@@ -1,9 +1,4 @@
 @charset "UTF-8";
-<<<<<<< HEAD
-@import "reset.css";
-@import "cores.css";
-=======
-
 @import "cores.css";
 @import "reset.css";
 
@@ -12,9 +7,83 @@
     src: url("fonts/Oswald/Oswald-VariableFont_wght.ttf");
 }
 
-body{
-    font-family: var(--cor0);
-    font-family : Super_Mario;
-    
+body {
+    color: var(--platinum);
+    font-family: Fortnite;
+    background-color: var(--midnight-violet);
+    background-color: rgb(131, 131, 160);
 }
->>>>>>> 67c578937c6cacb206cb61b177080bd32624ef94
+.tituloPrincipal{
+    text-align: center;
+}
+.img-banner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: rgb(41, 41, 46);
+}
+.menu {
+    text-align: center;
+    margin: 20px 0;
+}
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: rgb(99, 105, 105);
+}
+.menu ul li:hover {
+    background-color: rgba(156, 156, 156, 0.959);
+}
+.menu ul li a:visited {
+    color: red;
+}
+
+section {
+    /* background-color: aquamarine; */
+}
+
+/* section section{
+    font-size: 0;}    */
+#turmas .sala {
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(61, 144, 211);
+    min-height: 300px;
+    width: 100%;
+    min-height: 350px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+#turmas footer {
+    background-color: rgb(212, 0, 0);
+}
+
+#turmas footer h3 {
+    font-size: smaller;
+}
+
+#turmas .sala.turma_A{
+    background-color: rgb(64, 92, 124);
+    color: #000;
+}
+
+#turmas .sala.turma_B{
+    background-color: rgb(68, 76, 116);
+}
+
+
+.listaAlunos {
+    list-style: decimal-leading-zero;
+    margin-left: 30px;
+}
+.listaAlunos li {
+    padding: 5px;
+}
